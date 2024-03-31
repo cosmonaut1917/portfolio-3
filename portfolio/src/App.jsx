@@ -7,7 +7,7 @@ function App() {
     main: {
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${LofiBackground})`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center',
+      backgroundPosition: 'full',
       height: '70vh',
       display:"flex",
       alignItems:"center",

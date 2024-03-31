@@ -51,7 +51,7 @@ function ContactForm() {
         // }
 
 
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
+        
         setUserName('');
 
         setEmail('');
@@ -59,7 +59,7 @@ function ContactForm() {
 
     return (
         <div className="container text-center">
-            <h2>Contact Me</h2>
+            <h2 style={{ color: "white" }}>Contact Me</h2>
             {/* <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={email}
@@ -79,7 +79,7 @@ function ContactForm() {
       </form> */}
             <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label style={{ color: "white" }}>Email address</Form.Label>
                     <Form.Control
                         required
                         type="email"
