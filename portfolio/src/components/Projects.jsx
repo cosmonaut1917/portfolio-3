@@ -1,18 +1,24 @@
-import { Link } from "react-router-dom";
-function Projects () {
-return (
-    <div>
-        <h2 style={{ color: "white" }}>Projects</h2>
-        <ul style={{ color: "white" }}><Link to="https://github.com/cosmonaut1917/password-gen">A password Generator</Link></ul>
-            <ul style={{ color: "white" }}><Link to="https://cosmonaut1917.github.io/time_challange/">A time challange</Link></ul>
-            <ul style={{ color: "white" }}><Link to="https://github.com/cosmonaut1917/emp_tracker">An employee tracker using backend</Link></ul>
-            <ul style={{ color: "white" }}><Link to="https://book-nook-2024-1c3caea5765b.herokuapp.com/login">A mock social media book app that I helped on</Link></ul>
-            <ul style={{ color: "white" }}><Link to="https://camillebagnani.github.io/fine-tune-your-day/Links to an external site.">A day planner using music to plan your day</Link></ul>
-            </div>
-)}
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
+function BasicExample() {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Password generator</Card.Title>
+        <Card.Text>
+         You can use this app to generate a password
+        </Card.Text>
+        <Button variant="primary"  >Check it out
+        <Card.Link href="https://github.com/cosmonaut1917?tab=repositories"></Card.Link></Button>
+        
+      </Card.Body>
+    </Card>
+    
+  );
+}
 
+export default BasicExample;
 
-
-
-export default Projects;
