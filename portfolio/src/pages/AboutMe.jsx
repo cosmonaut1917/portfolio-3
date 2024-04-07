@@ -5,7 +5,7 @@ function AboutMe (){
         <h2 style={{color:"white"}}>About Me</h2>
         <div>
         <img style={{width: "18em"}} src={profilePic} alt="profile picture" />
-        <p></p>
+        <p>Iam a programmer from Utah more will be added at a later date</p>
         </div>
         </div>
     );
