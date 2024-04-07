@@ -2,16 +2,17 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
-function BasicExample() {
+function BasicExample(props) {
+    
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={props.image} />
             <Card.Body>
-                <Card.Title>Password generator</Card.Title>
+                <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
-                    You can use this app to generate a password
+                    {props.description}
                 </Card.Text>
-                <Button variant="primary" href='https://github.com/cosmonaut1917' target='blank' >Check it out
+                <Button variant="primary" href={props.Link} target='blank' >Check it out
                 </Button>
             </Card.Body>
         </Card>

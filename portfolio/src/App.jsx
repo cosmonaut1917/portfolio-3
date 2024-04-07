@@ -8,7 +8,7 @@ function App() {
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${LofiBackground})`,
       backgroundSize: 'cover',
       backgroundPosition: 'full',
-      height: '70vh',
+      height: '80vh',
       display:"flex",
       alignItems:"center",
     },
