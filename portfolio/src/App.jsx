@@ -11,6 +11,7 @@ function App() {
       height: '80vh',
       display:"flex",
       alignItems:"center",
+      
     },
   }
   return (
